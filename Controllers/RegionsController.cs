@@ -22,7 +22,7 @@ namespace Project1.Controllers
             this.repository = repository;
         }
 
-
+        //Get Method to Get All Regions
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
