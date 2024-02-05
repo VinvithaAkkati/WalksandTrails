@@ -1,0 +1,25 @@
+{
+  "code": "KC-CR",
+  "name": "Crossroads Arts District",
+  "regionImageUrl": "https://example.com/crossroads.jpg"
+},
+{
+  "code": "KC-RP",
+  "name": "River Market",
+  "regionImageUrl": "https://example.com/rivermarket.jpg"
+},
+{
+  "code": "KC-BLVD",
+  "name": "The Boulevard",
+  "regionImageUrl": "https://example.com/boulevard.jpg"
+},
+{
+  "code": "KC-UN",
+  "name": "Union Hill",
+  "regionImageUrl": "https://example.com/unionhill.jpg"
+},
+{
+  "code": "KC-LK",
+  "name": "Liberty Area",
+  "regionImageUrl": "https://example.com/liberty.jpg"
+}
