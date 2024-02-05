@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Project1.Data;
+using Project1.Mappings;
 using Project1.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<NZWalksDbContext>(options=>
     options.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksConnectionString")));
 builder.Services.AddScoped<IRepository, SQLRepository>();
-
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 var app = builder.Build();
 
