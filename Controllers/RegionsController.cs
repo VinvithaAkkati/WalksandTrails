@@ -33,7 +33,7 @@ namespace Project1.Controllers
             var regionsDto= mapper.Map <List<RegionDto>> (regionsCollection);
             return  Ok(regionsDto);
         }
-
+        //Get
         [Route("{id:Guid}")]
         [HttpGet]
         public async Task<IActionResult> Get([FromRoute] Guid id)
